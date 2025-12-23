@@ -27,7 +27,7 @@ Note: Your computer might automatically unzip the file and if so, skip the next 
     - The cd command for the downloads folder is: **cd ~/Downloads**
     - IF YOU MOVED THE APP TO SOMEWHERE BESIDES THE DOWNLOADS FOLDER, please go to https://www.google.com/search?q=how+to+use+the+cd+command+in+terminal+on+mac to learn how to use the cd command
 ### Example:
-![Demo](resources/quarantine.gif)
+![Demo](resources/quarantine_v2.gif)
 - Then, double-click or right-click + "Open" to open the app
 - The app will take up to a minute for it to load (loading time depends on the computer)
 - After it loads, the app should start up and see the controls section below for instructions
