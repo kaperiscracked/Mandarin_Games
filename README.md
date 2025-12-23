@@ -8,16 +8,28 @@
 - Download the .zip file by clicking on it
 - Click "show in Finder" (Note: you can also right-click the .zip file and skip the next step but this might not work 100% of the time)
 
-![image](images/instructions.png)
+![image](resources/instructions.png)
+
+Note: Your computer might automatically unzip the file and if so, skip the next step
 
 - Right-click the .zip file and click "Open"
   - Archive Utility should start unzipping it
   - After it's done, a .app file should appear next to the .zip
-- Delete the .zip, it's no longer needed
-- Move the file to somewhere you will remember
+- Delete the .zip as its no longer needed
 - Right-click the .app and click "Open"
-- If an warning message shows saying that the file may contain malware, ignore it and click the blue "Open" button
-- The app will take some time to load and wait for up to a minute for it to load (the loading time depends on the computer)
+- If an warning message shows saying that the file may contain malware, **Do not press the blue "Move to trash" button**.
+  - Instead, close the popup and go to Launchpad
+    - There should be a launchpad button in your menu bar (the bar with your apps at the bottom of your screen) that looks like <img src="resources/launchpad.png">
+      - Search for and click on the Terminal App
+    - If the launchpalaud button is missing from your menu bar, go to finder and search for **"Terminal"**
+      - Open the Terminal App
+  - Navigate to your app using the cd command and enter the following command to "quarantine" the app, basically telling the computer that the app is safe to open: **xattr -dr com.apple.quarantine game.app**
+    - The cd command for the downloads folder is: **cd ~/Downloads**
+    - IF YOU MOVED THE APP TO SOMEWHERE BESIDES THE DOWNLOADS FOLDER, please go to https://www.google.com/search?q=how+to+use+the+cd+command+in+terminal+on+mac to learn how to use the cd command
+### Example:
+![Demo](resources/quaratine.gif)
+- Then, double-click or right-click + "Open" to open the app
+- The app will take up to a minute for it to load (loading time depends on the computer)
 - After it loads, the app should start up and see the controls section below for instructions
 
 ---
